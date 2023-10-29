@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(12, 16, 25);
+}
+
+#card {
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  /* font-size: 30px; */
+  font-family: "Courier New", Courier, monospace;
+}
+
+#card img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  width: 100%;
+}
+
+#card h1 {
+  font-size: 35px;
+}
+
+#card h5 {
+  font-size: 25px;
+  color: red;
+  margin-bottom: 20px;
+}
+
+#card button {
+  background-color: rgb(102, 217, 221);
+  color: white;
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+
